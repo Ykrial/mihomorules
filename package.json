@@ -7,7 +7,6 @@
 	"type": "module",
 	"scripts": {
 		"deploy:workers": "wrangler deploy",
-		"deploy": "vercel --prod --yes",
 		"dev:workers": "wrangler dev src/_worker.js --live-reload",
 		"dev": "nodemon src/vercel.js",
 		"build": "node esbuild.js",
